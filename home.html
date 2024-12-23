@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHUSH-HAAL GHAR</title>
+    <link rel="icon" href="parent.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="stylehome.css">
+    <script src="homescript.js"></script>
+</head>
+<body>
+    <div class="heading-with-icon"> 
+        <img src="parent.jpeg" alt="Icon" style="height: 50px; width: 50px;"> 
+        <h1>KHUSH-HAAL GHAR</h1>
+     </div>
+     <div class="navbar" id="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Services</button>
+            <div class="dropdown-content">
+                <a href="#parents">For Parents</a>
+                <a href="#caretakers">For Caretakers</a>
+                <a href="#kids">For Kids</a>
+            </div>
+        </div>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()"></a>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-inner">
+                <span class="close" id="closeBtn">&times;</span>
+                <span class="minimize" id="minimizeBtn">−</span>
+                <h2>Share Your Problems</h2>
+                <p>We will try our best to find solutions for your problems.</p>
+                <textarea id="userProblem" rows="4" cols="50" placeholder="Type your problem here..."></textarea><br><br>
+                <button class="submit-button" id="submitBtn">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Minimized Chat Box -->
+    <div id="minimizedChat" class="minimized-chat" onclick="restoreModal()">
+        <b>Share Your Problem</b>
+    </div>
+    </body>
+</html> 

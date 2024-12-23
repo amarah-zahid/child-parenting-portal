@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My First Website</title>
+</head>
+<style>
+    body{
+        background-image: url("ucp.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    h1   {color: blue;}
+p    {color: rgb(200, 255, 0);}
+table, th, td {
+  border:1px solid rgb(23, 111, 228);
+}
+</style>
+<style type="text/css">
+    *{
+        text-decoration:none ;
+
+    }
+    .navbar{
+        background:firebrick; font-family:calibri; padding-right: 16px; padding-left: 16px;
+    }
+    .navdiv{
+        display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo a{
+        font-size: 35px; font-weight: 600;color: white;
+    }
+    li{
+        list-style: none; display: inline-block;
+    }
+    li a{
+        color: white; font-size: 18px;font-weight: bold; margin-right: 25px; 
+    }
+    button{
+        background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+    }
+    button a{
+        color: white; font-weight: bold; font-size: 15px; 
+    }
+</style>
+<body>
+    <img src="ucp.jpg" alt="image of ucp" width="200" height="200">    
+    <h1 title="html attribute" style="font-size: 60px;">Website Tutorial</h1>
+    <p title="introduction" style="color:aquamarine; font-style: italic; margin-top: auto;"><b>Hello world! This is my first website.</b></p>
+        <a href="https://www.w3schools.com"><u>click on the link to visit W3Schools</u></a>
+    <h1>This is heading 1</h1>
+    <hr>
+    <p>This is some text.This text is bold</b></p>
+    <p>This is some text.<strong>This text is strong.</strong></p>
+    <hr>
+    <h2>This is heading 2</h2>
+    <p>This is some other text.</p>
+    <br>
+    <table style="border: 1px solid rgb(181, 240, 21); color:darkorange ; width: 100%;">
+        <tr>
+            <th>name</th>
+            <th>class</th>
+            <th>roll</th>
+        </tr>
+        <tr>
+         <td><b>amarah</b></td>
+         <td><b>bscs</b></td>
+         <td><b>073</b></td>    
+            </tr>
+            <tr>
+                <td><b>rida</b></td>
+                <td><b>bscs</b></td>
+                <td><b>245</b></td>
+            </tr>
+    </table>
+    <p>To understand the example better, we have added borders to the table.</p>
+    
+    <!--<button onclick="document.location='https://www.w3schools.com'"</button>-->
+</body>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">UCP</a></div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <button><a href="#">sign in</a></button>
+                <button><a href="#">sign up</a></button>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+</body>
+</html>

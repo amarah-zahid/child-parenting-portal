@@ -1,0 +1,185 @@
+body{
+    
+    background-color: antiquewhite;
+}
+.heading-with-icon { 
+    display: flex; 
+    align-items: center;
+    background-color:white;
+    height: 60px;
+
+ } 
+.heading-with-icon img {  
+     top: -10px;
+    left: 10px;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color:rgb(230, 228, 228);
+    color: black;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    color: white; 
+    padding: 14px 16px; 
+    background-color: inherit; 
+    font-family: inherit; 
+    margin: 0; 
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#image1
+ {
+            width: 400px;
+            height: 300px;
+            margin-top: 60px;
+            display: flex;
+            padding-left: 110px;
+            color: white;
+            opacity: 0.5;
+            transition: width 2s, height 2s;
+           
+        }
+        #image1:hover
+                {
+            width: 500px;
+            height: 350px;
+        }
+        .scrolled {
+            transform: scale(0.9);
+        }
+        #head1{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            text-align:center;
+            position: relative;
+            bottom: 250px;
+            padding-left: 420px;
+            font-size: 30px;
+        }
+        #para1 {
+            color: black;
+        text-align: left;
+        position: relative;
+        padding-left: 615px;
+        bottom: 260px;
+        font-size: 20px;
+        }
+        hr { 
+            border: none; 
+            height: 7px; 
+            background-color: black; 
+             margin-top: -100px; 
+              }
+        #image2
+ {
+            width: 400px;
+            height: 300px;
+            display: flex;
+            padding-left: 740px;
+            padding-top: 100px;
+            color: white;
+            transition: width 2s, height 2s;
+           
+        }
+        #image2:hover
+                {
+            width: 500px;
+            height: 350px;
+        }
+        .scrolled {
+            transform: scale(0.9);
+        }
+        #head2{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            position: relative;
+            margin-top: -330px;
+            padding-left: 100px;
+            font-size: 35px;
+        }
+        #para2{
+            padding-left: 100px;
+            font-size: 20px;
+        }
+        #hr1{
+            margin-top:130px;
+        }
+        #image3{
+            width: 400px;
+            height: 300px;
+            margin-top: 100px;
+            display: flex;
+            padding-left: 90px;
+            color: white;
+            transition: width 2s, height 2s;
+           
+        }
+        #image3:hover
+                {
+            width: 500px;
+            height: 350px;
+        }
+        .scrolled {
+            transform: scale(0.9);
+        }
+        #head3{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            text-align:center;
+            position: relative;
+            bottom: 250px;
+            padding-left: 310px;
+            margin-top: -60px;
+            font-size: 30px;
+        }
+        #para3{
+            color: black;
+            text-align: left;
+            position: relative;
+            padding-left: 670px;
+            bottom: 260px;
+            font-size: 20px;
+        }
+        #hr2{
+            margin-top:-150px;
+        }
+        
